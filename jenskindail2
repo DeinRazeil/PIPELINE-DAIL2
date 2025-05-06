@@ -3,7 +3,7 @@ pipeline {
   stages {
       stage('build') {
           steps {
-              bat 'IamDein'
+             bat 'echo This is my simple pipeline.'
             }
         }
   }
